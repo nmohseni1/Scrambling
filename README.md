@@ -1,12 +1,12 @@
 
 # Deep Learning for Random Driving
 
-This repository contains the code to generate the results of the paper  https://quantum-journal.org/papers/q-2022-05-17-714/ for Transverse Field Ising (TFI) model.
+This repository contains the code to generate the results of the paper  https://quantum-journal.org/papers/q-2022-05-17-714/ for the Transverse Field Ising (TFI) model.
 
 ## Notebooks:
 
 ### 1. Random_Field.ipynb
-This notebook demonstrates how to generate random Gaussian fields. I
+This notebook demonstrates how to generate random Gaussian fields. 
 
 ### 2. Training_TFI.ipynb
 This notebook focuses on training the neural network on random Gaussian fields for the TFI model. It includes:
@@ -21,7 +21,6 @@ This module provides code for simulating dynamics using randomly generated Gauss
 It includes methods for generating training data for the neural network.
 
 ### 2. Simulating_Dynamics_Random_Periodic.py
-Similar to the Random Gaussian module, this module facilitates the simulation of dynamics using randomly generated periodic fields. 
-It also includes methods for generating data for testing the neural network.
+Similar to the Random Gaussian module, this module simulates the dynamics of the driven system with random periodic fields for generating data for testing the neural network.
 
 
