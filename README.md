@@ -1,26 +1,27 @@
 
-# Deep Learning for Random Driving
+# Deep Learning and  scrambling
 
-This repository contains the code to generate the results of the paper  https://quantum-journal.org/papers/q-2022-05-17-714/ for the Transverse Field Ising (TFI) model.
+This repository contains the code to generate the results of the paper  https://arxiv.org/abs/2302.04621.
 
 ## Notebooks:
 
-### 1. Random_Field.ipynb
-This notebook demonstrates how to generate random Gaussian fields. 
+### 1. Random_parameters_generation.ipynb
+This notebook demonstrates how to generate random parameters $\theta_p^i$of our circuit by applying a random Gaussian Process. 
 
-### 2. Training_TFI.ipynb
-This notebook focuses on training the neural network on random Gaussian fields for the TFI model. It includes:
+### 2. OTOC.ipynb
+This notebook demonstrates how to calculate OTOC for our random circuits and reproduce Fig. 6.
+
+### 2. Training.ipynb
+This notebook focuses on training the neural network. It includes:
 - Network training process and architecture details.
 - Evaluation of the network's generalization power.
 - Extrapolation tests on different driving fields: fresh Gaussian, quench, and periodic fields. Extrapolation power in time.
 
 ## Python Modules:
 
-### 1. Simulating_Dynamics_Random_Gaussian.py
-This module provides code for simulating dynamics using randomly generated Gaussian fields. 
-It includes methods for generating training data for the neural network.
+### 1. Simulating_Dynamics_of_random_circuits.py
+This module includes the code for simulating the dynamics of random circuits to generate data for training. 
 
-### 2. Simulating_Dynamics_Random_Periodic.py
-Similar to the Random Gaussian module, this module simulates the dynamics of the driven system with random periodic fields for generating data for testing the neural network.
+
 
 
