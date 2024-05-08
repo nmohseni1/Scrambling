@@ -8,7 +8,7 @@ This repository contains the code to generate the results of the paper  https://
 
 
 ### 1. OTOC.ipynb
-This notebook demonstrates how to calculate OTOC for our random circuits and reproduce Fig. 6.
+This notebook demonstrates how to calculate OTOC to reproduce Fig. 6.
 
 ### 2. Training.ipynb
 This notebook focuses on training the neural network. It includes:
