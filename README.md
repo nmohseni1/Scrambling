@@ -5,10 +5,9 @@ This repository contains the code to generate the results of the paper  https://
 
 ## Notebooks:
 
-### 1. Random_parameters_generation.ipynb
-This notebook demonstrates how to generate random parameters $\theta_p^i$of our circuit by applying a random Gaussian Process. 
 
-### 2. OTOC.ipynb
+
+### 1. OTOC.ipynb
 This notebook demonstrates how to calculate OTOC for our random circuits and reproduce Fig. 6.
 
 ### 2. Training.ipynb
