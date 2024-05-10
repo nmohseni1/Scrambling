@@ -10,11 +10,11 @@ This repository contains the code to generate the results of the paper  https://
 ### 1. OTOC.ipynb
 This notebook demonstrates how to calculate OTOC to reproduce Fig. 6.
 
-### 2. Training.ipynb
-This notebook focuses on training the neural network. It includes:
-- Network training process and architecture details.
-- Evaluation of the network's generalization power.
-- Extrapolation tests on different driving fields: fresh Gaussian, quench, and periodic fields. Extrapolation power in time.
+### 2. LSTM.ipynb
+This notebook shows  the training the LSTM neural network for the homogeneous model  where $\theta^i_p = \theta^j_p$. Using this notebook, figure 3 of the paper can be reproduced. 
+
+### 2. CONVLSTM.ipynb
+This notebook shows the training of the CONVLSTM neural network for the inhomogeneous model  where $\theta^i_p \neq \theta^j_p$. Using this notebook, figure 4 of the paper can be reproduced. 
 
 ## Python Modules:
 
