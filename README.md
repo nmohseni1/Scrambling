@@ -1,6 +1,6 @@
 # Deep Learning and Scrambling
 
-This repository contains the code to generate the results presented in the paper [Link to paper](https://arxiv.org/abs/2302.04621).
+This repository contains the code to generate the results presented in the [paper](https://arxiv.org/abs/2302.04621).
 
 ## Notebooks
 
