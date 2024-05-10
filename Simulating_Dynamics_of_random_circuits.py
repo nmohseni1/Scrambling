@@ -171,7 +171,7 @@ def main():
                     ,[(expect(sz_list[0]*sz_list[f],psi)) for f in range(1,L) ]],dtype=object))
             expect_store[n,k]=tmp
             np.savez( "EXPECTS_STATES"+str(M) + "qubits_" + str(K) + "sequcences" + str(N) + "trajectories_sigma=" + str(Correlation) + ".npz", 
-         state=state_store,Theta=ThetaX,Expect=expect_store )
+         state=state_store,Data=ThetaX,Result=expect_store )
     return(expect_store)
 if __name__ == "__main__":
     main()
